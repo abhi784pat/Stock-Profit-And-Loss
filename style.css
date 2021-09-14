@@ -72,3 +72,28 @@
       font-family: inherit;
       color: rgb(29, 84, 138);
   }
+
+  footer {
+      text-align: center;
+  }
+
+  footer p {
+      color: #fff;
+      font-size: x-large;
+      text-align: center;
+  }
+
+  .footer-list {
+      margin: 1rem;
+  }
+
+  a,
+  img,
+  li {
+      display: inline;
+  }
+
+  img {
+      width: 110px;
+      padding: 0.4rem;
+  }
