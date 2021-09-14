@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Profile & Loss Calculator</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://www.google.com/s2/u/0/favicons?domain=neog.camp"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stock Profile & Loss Calculator</h1>
+    </header>
+    <main>
+      <label class="input-label" for="initial-price">
+        Intial Price
+        <input
+          class="input"
+          type="text"
+          id="initial-price"
+          placeholder="Enter Initial Price Here"
+      /></label>
+      <label class="input-label" for="stocks-quantity">
+        Quantity of Stocks
+        <input
+          class="input"
+          type="text"
+          id="stocks-quantity"
+          placeholder="Enter the Number of Stocks bought"
+        />
+      </label>
+      <label class="input-label" for="current-price"
+        >Current Price
+        <input
+          class="input"
+          type="text"
+          id="current-price"
+          placeholder="Enter the Current Price of the stocks"
+      /></label>
+          
+      <button id="submit-btn" class="btn-check">Tell Me!!</button>
+       <button id="cuur-pr-btn"> Current Price Of IBM</button>
+     <div id="out-put-gif" class="output"></div>
+      <div id="output-box" class="output"></div>
+      <p id="curr-pr" class="stock-out"></p>
+    </main>
+    <script src="index.js"></script>
+    </body>
